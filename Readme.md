@@ -49,7 +49,7 @@ Note: 1 service account can copy around 750gb a day, 1 project makes 100 service
 ```
 
 The command would look something like 
- `python3 gen_sa_accounts.py --quick-setup 1`
+## `python3 gen_sa_accounts.py --quick-setup -1`
  replace "1" with the number of projects you want
 
 If you have already N projects and want to create service accounts only in newly created projects,
@@ -62,7 +62,7 @@ to
  
 run 
 
-`python3 gen_sa_accounts.py --quick-setup 1 --new-only` 
+## `python3 gen_sa_accounts.py --quick-setup 1 --new-only` 
 
 If you want to create some service accounts using existing projects (do not create more projects), run 
 `python3 gen_sa_accounts.py --quick-setup -1`.
